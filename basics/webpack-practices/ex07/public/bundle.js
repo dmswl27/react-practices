@@ -1,0 +1,1 @@
+(()=>{var t={931:t=>{t.exports={text:"Hello World"}}},e={};function r(n){var o=e[n];if(void 0!==o)return o.exports;var c=e[n]={exports:{}};return t[n](c,c.exports,r),c.exports}(()=>{"use strict";r(931),document.getElementById("root").appendChild(function(){const t=document.createElement("h1");return t.textContent="content.txt",t}())})()})();

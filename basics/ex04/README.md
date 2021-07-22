@@ -28,11 +28,11 @@
     |--- node-modules
     |--- public
             |--- index.html
-            |--- bundle.js
+            |--- main.js
     |---   src
             |--- index.js
             |--- App.js
-    |--- dex-server 
+    |--- dev-server.mjs 
 <pre>
 
 3. script

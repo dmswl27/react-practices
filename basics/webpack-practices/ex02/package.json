@@ -1,0 +1,19 @@
+{
+  "name": "ex02",
+  "version": "1.0.0",
+  "description": "1. 프로젝트 생성\r ```bash\r $ mkdir ex01\r $ cd ex01\r $ npm init -y\r $ npm i -D webpack webpack-cil express \r ```\r 2. 프로젝트 구조\r <pre>\r   /ex03\r     |--- package.json\r     |--- package-lock.json\r     |--- node-modules\r     |--- public\r             |--- index.html\r             |--- main.js\r     |---   src\r             |--- index.js\r             |--- App.js\r     |--- dev-server.mjs \r <pre>\r 3. 빌드하기\r ```bash\r $ npx webpack ./src/index.js\r ```\r ./dist/main.js 로 번들링 됨",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "express": "^4.17.1",
+    "webpack": "^5.45.1",
+    "webpack-cli": "^4.7.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx webpack"
+    
+  },
+  "author": "",
+  "license": "ISC"
+}
