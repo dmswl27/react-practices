@@ -1,0 +1,20 @@
+{
+  "name": "ex03",
+  "version": "1.0.0",
+  "description": "1. 변환 규칙을 소스에 적용해서 변환 파일을 생성한다.\r 2. 변환 규칙을 가지고 있지 않다.\r 3. 플러그인이 변환 규칙을 가지고 있다.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.14.8",
+    "@babel/plugin-transform-block-scoping": "^7.14.5",
+    "@babel/plugin-transform-for-of": "^7.14.5",
+    "@babel/plugin-transform-parameters": "^7.14.5",
+    "@babel/plugin-transform-template-literals": "^7.14.5"
+  }
+}
