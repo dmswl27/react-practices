@@ -1,14 +1,7 @@
-## Awesome font(React) 사용하기
+## Working with UI II: React Modal
 
-1. 코어 설치
-```bash
-$ npm i @fortawesome/fontawesome-svg-core
-$ npm i @fortawesome/react-fontawesome
-```
-2. icon(light[유료], reguler, solid(기본), brand(기업))선택 설치
-```bash
-$ npm i @fortawesome/free-solid-svg-icons
-$ npm i @fortawesome/free-regular-svg-icons
-$ npm i @fortawesome/free-brands-svg-icons
+1. Install
+    ```bash
+    $ npm i react-modal
+    ```
 
-```

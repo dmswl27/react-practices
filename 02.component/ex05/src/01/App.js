@@ -2,7 +2,7 @@ import React, { Fragment, useState } from 'react';
 import LifeCycle from './LifeCycle';
 
 export default function () {
-    const [color, setColor] = useState('#000');
+    const [color, setColor] = useState('#000');  // 값을 가지고 있다.
     
     const handleClick = function (e) {
         // '#998811'
